@@ -1,0 +1,15 @@
+/*
+websites can add additional CSS by creating a file:
+
+_docs/
+  supplemental-ui/
+    css/
+      site-custom.css
+
+and referencing in site.yml:
+
+ui:
+  supplemental_files: _docs/supplemental-ui
+
+Any CSS defined their will replace *this* file in the template.
+*/
