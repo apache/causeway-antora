@@ -1,0 +1,29 @@
+div.admonitionblock {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.admonitionblock table {
+  border-width: 1px;
+  border-style: solid;
+}
+
+div.admonitionblock.note table {
+  border-color: #217ee7;
+}
+
+div.admonitionblock.tip table {
+  border-color: #41af46;
+}
+
+div.admonitionblock.warning table {
+  border-color: #e18114;
+}
+
+div.admonitionblock.important table {
+  border-color: #d32f2f;
+}
+
+div.admonitionblock.caution table {
+  border-color: #a0439c;
+}
