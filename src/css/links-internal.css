@@ -1,0 +1,15 @@
+a.page {
+  text-decoration: underline dotted;
+}
+
+a.page:hover {
+  text-decoration: underline;
+}
+
+.doc li > div.paragraph {
+  margin-top: 0.2rem;
+}
+
+div.listingblock div.title {
+  color: darkred;
+}
