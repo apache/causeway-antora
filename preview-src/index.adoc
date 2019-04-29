@@ -3,6 +3,7 @@ Author Name
 :idprefix:
 :idseparator: -
 :!example-caption:
+:page-toc:
 
 Platonem complectitur mediocritatem ea eos.
 Ei nonumy deseruisse ius.
@@ -192,6 +193,157 @@ If you installed the CLI and the default site generator globally, you can upgrad
 
 Nominavi luptatum eos, an vim hinc philosophia intellegebat.
 Eu mea inani iriure.
+
+== Incorrupte philosophia
+
+Lorem ipsum dolor sit amet, vidisse volumus his id, petentium voluptaria vel ut, quo in utinam facilisis. At vis graece accusata erroribus, aliquid invidunt nam te, iriure percipit torquatos mea ex. At sea ferri dolorum accusam. Nemore audire utroque eu eos, tota solum debet ius eu, sint percipit in eos. Ad pri unum praesent, mei te etiam incorrupte philosophia, denique definitiones sit at.
+
+[source,docker]
+----
+    FROM ubuntu:14.04
+    RUN apt-get update
+    RUN apt-get install -y curl nginx
+----
+
+Deleniti volutpat per ad. Populo suscipit an nec, odio menandri interpretaris duo cu, tation deleniti quo ei. Te eos laoreet voluptua expetendis. Has omnis definitiones ut, mel magna noster noluisse ne.
+
+Fuisset _explicari_ eu cum, mea tempor voluptaria ut, cu tation urbanitas forensibus pri. Duo aeterno liberavisse ne, nec idque consequat scribentur id. Reque mundi mea ea. An qui nisl ubique placerat, eos rebum tacimates contentiones an. At odio audiam vel. Eos no quas appareat similique, eos at inimicus constituto, eum ei audire senserit.
+
+Pro eros offendit oportere an. Quot mentitum eam eu, ex eos *vidit* mollis. Dignissim vituperata interpretaris id eos, et utamur accusam mel. 
+
+. Vis eu adhuc solum. 
+. Pri graeci percipitur ea, veritus omnesque et duo, decore sensibus ex nam. 
+. Vim atqui ridens consequuntur an, ea doctus latine delicatissimi vix, ad atqui insolens eam. 
+. Eleifend dissentiunt definitionem ei vis, ut sea mutat consul omittam.
+
+Novum vitae adversarium et per. Vix id meis sanctus. An ubique labitur reprehendunt pri, vel probo fabulas et. Sea nibh clita at. Ei amet iudicabit his, nec nisl agam in. Cetero appareat an has. Ea pro agam feugait dissentiunt.
+
+== Pustulant théôphrastùs
+
+Lorèm ipsum dolor sït àmet, ex latîne repudiândâè séa, usu èa débîtîs delïcata sèntentiàe. Eû laudem iisqùe çeterœs dûo, proprïaè vôlûtpat periçùla an per, mélius sèntêntîâë no ëst. Te agâm çonseqûuntur vél, debet opôrtèré perïçûla ex prî. Ut quis propriaè èxplicàri hïs. Falli nemœré tè vix, èù mei postulant théôphrastùs. Vix sumo modûs èt, ex méis summo prœprïàé èam, inîmîcus indoctum ne nec.
+
+Nam ea éxércî refôrmidans. Mei regiôné êripùït ëpiçuréi ad, ad àliâ vélit vèrêar èos, nè dîctà recusabô élâbœrarét has. Eu eam âéqué façétë, ùtrôqûë mœlestiàê ei mea, àn qùando tântas cum. 
+
+* defïnîtiônes
+* vitupèratorîbûs
+* splendïdê
+
+In dîcat tàtîon lùptàtûm eœs. Putent ïnèrmis tôrqùatos cù duo, et agam facer intellêgébat sit. Te prompta honestàtïs vel, mèi cu nihil façètè.
+
+Nam éx lëgimus civîbus defïnîtiônes, ât duô modus vitupèratorîbûs. Phaedrum vulpûtate eùm cù, îus an quém rîdéns diçerêt. Hïnc diçat çonsûlatu éùm nè, âd sêâ ïllum timeam splendïdê. Paûlô nùmqûam laborès ad meâ. Ubïque sôluta qui et.
+
+Usu té erât praèsènt intellêgebat. Nô quœ partïêndo scrïbentùr, éà rêbum graeçis vîx, pri eros omnïs cu. Et duœ aeterno luptàtum, ëtiam persiùs mentîtum no has. At mèa fërrî lùptâtum, nêc nè cibo voluptatum, decorë vivendum pœsidœniûm hâs at. Sït nulla quîdam èà, movèt aëtërnô cum în.
+
+Sït ét probo tatiôn àppellàntur. In nusquàm sîgniferumquè his. Pêr cu porro dîssentiunt, audire nominàvi phàêdrum sed ëu. Has ët impedit cétêros, èa scàëvolà dissentiùnt sit, usu tê quëm promptà. Ad qui verï laboramus, diço nùlla timeam ëx mêl.
+
+[CAUTION]
+====
+[#inline]#Sensibûs spléndidè at éam, iûs te qùis làbore répudiare.#
+====
+
+Ad vis dicunt çonsetètur. Ius diçùnt àppêllantur né, per id legere nusqùam. Eum partêm suscïpit fôrénsibus éà, acçumsàn copîosae né èam, cu qùï amét tœllit alienum. Elit veri mûndi ût hîs. Eû nêc àudirê çonsetetùr.
+
+Zril màlorùm scribéntur ëum te. Eùm et ïllud lucilius dïgnissïm, ei has tation impedit advërsàrium. His te êxpéténdâ conséqûat democritum. Eû prî mùnère nominâvi lâborâmùs, éi âmét nisl sëd.
+
+Pri féugiàt sênsibus instructiœr nœ, alii dîcàt assum pri ùt. Nô nostrud vitûpêràtôribus sêa, nec domïng laborës intellêgat eî, liber volùptatum at pro. Habemus albucius ad qui. Ut sît persêcuti efficiantur disputàtioni, putent audîré éa qùi, àn dicànt sanctus dôlorem vël. Omïttam albuciûs sëa nê, per êa suàs façer, possït plâtônem àn pro.
+
+Eu praesént refèrrèntur per. Solùm nihîl ançillae ât êam, èu dïçant discerê per. Ex tibîqûe sîgnîfèrumque qui. Legërê dœçêndî cum ea, vîm molestïàe ùllamcorpér ne, no has sempér èxplicarï.
+
+Ut ratiônibus instructîôr vim, laoréet ânçillaé forénsibus mêl ex. Elitr aperiam ûsû ea. Fùgit ùtamur id sît. Iùstô timéam molêstîae vim id.
+
+=== Vocént tractato
+
+Lorem ipsum dolôr sît amèt, nam porro nùlla antiôpâm ad, tation minimum assèntiôr ùsu ne, ludus cônsul est an. Ut tota omnës corrûmpit mèl, né pro commùné insolens philosophîâ, èï probo vèlit èripuît nec. Prï feûgiat disputando et, cû modo domïng mollïs cum. Usù no ïllum pêrsécùti râtïônibus, dùo tâçimâtés sapîëntêm ad. Ex prî vocént tractatos democrîtum.
+
+At vîx falli fàçîlisi. Libér nominâti èt nec. Ex quidàm simïlïquê sit. Sea dïâm sapéret mœlêstîe id, in posse nullàm nemoré êum. Dicerèt mnèsàrçhûm in seà. Qûo eâ grâeço sensïbus, usu ut mïnïmûm ôpœrtere.
+
+Errëm dolorum ut vim. Lùptàtum médiôcritàtém quo et, quo êi dènique spléndïdè. Te àtqui appetêré vïvendùm sit, lucîlîùs détêrruisset his në, ïus vïdissé çônsèquat similïque éï. At tatîon dîsputândo vis, eàm ut odïo nonumy. Vim posse pùtént âliquam ne, pèr ût ômnis partiendo intellègebat. Nëc fèrri cœtîdieque àt, dùis illum pri êî.
+
+An usu gràeci accusatâ delîcatissimî, sumo inermîs at sit. Id nullam âçcusata consêqûuntur mel. Ad ridèns scripta méà, éœs malorùm èxplicari çonçludaturqué cu. Alîi îisqué fûîssèt est tè, néc no purto dictas lîberâvissé. Rêbùm scaévôlâ adîpîscîng id pri, irîure prœmptà alïqùàndo vïm eu.
+
+Ne pro véro pàrtem ëligèndi, no his putênt mollis. Solèt munêré vœlumus çûm îd. Laùdem disputàndo in sit. Id suas vërterèm gubèrgrên mël, erant ûtïnàm scribentûr àd nec, mea cù nôstrud opœrterë.
+
+Popûlœ nœstro vïs té, quô te sëmpër labitur omîttam, ëùm lùdûs àudiam tèmporibus în. Lïber épîçurèi impérdiet cum ad, âûdiâm vôlûptûâ dèfinitiœnés tê cum. Ut pri diço sensibus, ad nôvùm congùë màluisset sea. Offéndît qualisquè ius êa, dicùnt ëvértî êlôquèntïam ïn pro. Tàtîon irîurë demœcrîtûm vix ïn, meâ éu integrê periçula, an sèa élit sentèntiàé lîberavissë.
+
+Summo oçurrêret ut cûm, sàepé optîon rêfêrrêntûr quo an. An mînim iudicabît ëôs. Nêc munére pértinax at, në sit çommœdô invidunt, êi chorœ persécuti éôs. Usu ëi ëvertitùr constituto, ea mëi prima assum mêlius. Ridens adïpiscî iraçundia în nam.
+
+Eu iriure vîvendum éâm, qûo ad nibh senserit. Impetùs tincidunt rêformidans ëst an, ad vîm volumus inimicûs. Eirmœd dëlënît prâèsent nëç at, ut maiôrum façilisi nec. Vis ut côrpœrâ êxpétenda neglegèntur, te appareat qùaerêndûm ùsu. Vïris apèrîam nôluissé éu hïs.
+
+Justô vertërem în vis. Ornâtùs debîtïs fabèllas te his. Eî prœbô pérçipit hàs. Eos àd quas œbliqué œmittam, ea saêpe iudico intéllegat seâ, vèl ïd omnis demoçritum hônestatis. Sed sint aetérnô aperiam éî.
+
+Ut éïus vîdissê glœriatur usu, ad cîbo ferri debitis quô, vertèrèm àssuêverït sed no. Cù pri tamquàm salutatùs. Qui ût dïçta fuissêt. Vel debêt tèmpœr médiôcrém cù.
+
+Hàs èa çïbœ iriurè recteque, ea qui facêr éffiçîantur, qûi âd fêugàït posïdœniûm. Ne nec perîcûlîs vîtupérâtoribus, cû pèr aliï complèctïtur intèrprètaris. Eam cû êxplicari intëresset, ad dîco médïocrém vituperàta nëç. An séa oratio pèrtînax eloqùèntîam. Quidâm délêctus pondêrum nam in, id suas facilisis mêâ, casé assùévèrît duô ïn.
+
+Quo at prôbo populo qùôdsî, ïus eqùidèm partîendo èrrœribus nè, èos movèt ancillae no. Ut amèt nùllam asséntior vel. Prï id pondérum suavitate. An eam împedît màndâmus întèrèsset. Usû libër promptâ pericùlîs ëà. Eripuit fëùgait nêc èi, elèîfènd désèruissë meà at, ëos ân habêmus platonem.
+
+Nisl principês èfficiantûr eum êu, ëam tatîon probatus înstrûctior at. Vidït fâcete éà sït, hâs autêm fàllî contentïonés ad. Té mel éxérci honêstatïs, sit utinâm ridens élëctram ea. Ei ïnani accusam has, appeterë laboramus ius ëx. Aûgué êpicurî ïmpérdîet an eum, élit mélîûs labœramûs tè est. Falli dolorem êam cù. Et magna hâbeœ consêçtetùer vix, at pro ùtînam soluta œmittam, ïdque assuévérit ëi sit.
+
+
+.Ferri dolôrém volûptua
+[cols="1*<.^5,9*^.^2m"]
+|===
+
+.3+|*Timèàm* 
+9+d|*Habèo*
+
+3+d|*êpicurî `XXVI`*
+3+d|*maiœrum  `MLMXCVI`*
+3+d|*qùando `XI`*
+
+d|laboramus d|labœramûs d|œmittam
+d|laboramus d|labœramûs d|œmittam
+d|laboramus d|labœramûs d|œmittam
+
+|Habêmus Platonem (%)
+|79|76|70
+|[blue]#?#|[blue]#?#|[blue]#?#
+|78|[blue]#?#|65
+
+|Ràtïonibûs Séa (%)
+|51|47|40
+|[blue]#?#|[blue]#?#|[blue]#?#
+|43|[blue]#?#|28
+
+10+|
+[.blue.small]#?# [small]#Eos dicànt vïvendum definîtiones#
+|===
+
+Voluptua disséntîâs no duo, virîs ràtïonibûs séa eâ. Fàcétê maiéstâtîs nœ vis, nèç qùando senserit nô, civibus constitûam çù sit. Té idqùè àccumsan vïs. Cu qùi solét maiœrum, hïs ut mazim dôçtus prômpta, mèï an dèserunt argumentum. Porrô timèàm officiïs vîm né.
+
+Sémpèr sensérit qùœ çù. Sùmô mandamus çonstitùam në cum, ferri dolôrém volûptua hïs în, vël vœcîbus dignïssim an. Habèo eûismod ïd êam, wîsi învïdùnt ëa èûm. Eù dùœ munere pèrsïus vîtùperàtà, tantàs assùevérit dissentias éx qui. Dolor erûdîti consététur àt ùsu, éu eos dicànt vïvendum definîtiones.
+
+Vel graecï consulatu ad, an wîsi blandit percîpit èôs, ad véréar oportérè vitupèratà nec. Eam eirmôd aliquid omittantùr çû, pro exérçï maïorum ne. Vis îd mœlestîe sâpientèm, cu mea mûçiùs sâdipscing scrïptorem. Sèà qùândo rationïbus nœ, veniam refèrrentur néc at. Vim sèmpér ômniùm ïnvènire eâ, mèi ad acçusâm omîttantur. Et vix erat debîtis éxpliçari.
+
+Iuvârèt mâiestatïs cum ut. Dëbet âliquip has àn, nisl altera malôrum ïd ïùs, qui mùndi intégre susçîpiàntur ât. Eros porro màndamus mèl et. His nê rèferrêntûr suscipiantûr détërrùîsset, tollit êruditi ëa eôs.
+
+. Ut àlîqùândô concéptam çum.
+.. Cùm ullûm àcçumsan înterèssèt në
+.. Essênt sànctus àncillàé ést ët. 
+. Ipsum sùmmo concêptam eum in. 
+.. Prœ pûrto grâècis pérïçùla ne. 
+.. Ea partem âçcommodâré nëc, cu çùm énîm dèléctus vôlutpat.
+. Sed solum refœrmîdans eu.
+
+Expèténdà témporibus qùœ în, voçënt latine întêllegebàt sêa èa. No mucius impêtus èxpetèndà prî. Labôré facilis né îùs. Mênandri adipîscing cu usù, id vim alterûm phaedrum. Te ëssënt traçtâtos êum. At pùrtô adîpisçi pro.
+
+Id môdo întêgre nâm. Eâm quâs indôctum éx. Mea nè vênïam populo ornâtus, cu mûnere pùtènt omnësquë éam. Ea wisî oratïo àssèntîor sea.
+
+Eï vîx dolorès dignissim alîqûando. Ignœta àpêriri argumëntùm nê qui, dicam iraçundîa ùsu no, inâni eloqùéntiàm cu sèd. Ex êos aliquip accusàm, veritus èxpliçàrï vulpùtaté duo eù, èu çùm tempor alîquïp scaevola. Qui ât pœssit modèràtius, an qûàndo librîs màiéstatis pèr. Ad ipsum nostro éûm, te mèl ràtionibus èlaboraret.
+
+Vix promptà rêprimîqùé te. Gràêçïs sâlutandi intellegàm té sit, affèrt sîngulis nô has, sâlè exerci no îus. His îriure alîquam intëllegât et, êu postêa caùsàè intêllègam pri. Nullà scriptà eam ùt, êt vix ërror mêliôré, sea saepè epïcureî ut. Eum ad modus sapêret. Ius viris aliqûip gubêrgren în, ut dolôr àcçùmsân pàtrîoquè sed, dico sanctus réprîmique ëx sed.  
+
+Mea éà utamur argumentûm. Per at idquë torquàtos. Per ut çetéro accœmmodarè, unum pœsteà sïngulïs âd pér. Vis êt rècusàbo cônclûdâtûrqué. Eûm èx partêm pertînâx, pœpulœ fabulâs àliquândo sït et. His libèr përtinaçià tê, sôleat suavîtàté mêi àt.
+
+At clitâ fàcilis est, élitr prôdessêt ét hîs. Ignôtà laœréèt graecis ëos ïd, id aùtem facër.
+
+== Tantas omittantûr no nêç, prima solutà àpeirïan pro ea, pôrro omnium îus eî
+
+Lorëm îpsum dolœr sit âmét, îgnota essënt éu sëa, impedit commûné cu pri, èt nôstrum êxpetendis rëfërrentur eos. An ërat âliqùip sit. Verïtus sênsïbus dîssentièt cu mêi, êlît melïœrë ut vim. Qûot dïcàm ïd sed. Tantas omittantûr no nêç, prima solutà àpeirïan pro ea, pôrro omnium îus eî.
+
+Id magna omnîs pârtem nàm, in qûô clitâ eleifend urbânitàs, çum sàlè dôlôrès omnêsquê no. Minîmum traçtatœs éi ïus, pro inanï mênândri périculîs cu. Id pri ërat libér vivendœ. Ne usu vîde jûsto délenït, ïllud utroque rëcùsabo qùo îd, ne omnesquê përsècutï referréntur his. Tê pro sale adœléscens, ûllum primis similiquè nàm àn. Lùptatum intellëgèbat sit at, inânï âudiam cû mèa.
+
+Ad pro fùgit populô. Usu erat dîssëntïàs instructior êu, duo habemus qûâërèndùm nê, nec îd màgna cœmmodo. Et hinc mûndi œffëndît mel, êros atomôrum te vîx, vel duis partiêndœ tê. Prï grâeci dèfînitîonès êt.
 
 [discrete]
 == Voluptua singulis

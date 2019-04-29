@@ -2,9 +2,11 @@
 @import "typeface-roboto-mono.css";
 @import "base.css";
 @import "main.css";
+@import "main-toc.css";
 @import "navigation.css";
 @import "navigation-menu.css";
 @import "navigation-explore.css";
+@import "toc.css";
 @import "toolbar.css";
 @import "breadcrumbs.css";
 @import "page-versions.css";
