@@ -1,3 +1,22 @@
 nav.nav-menu span.nav-text {
   font-style: italic;
 }
+
+a.navbar-item.navbar-heading {
+  font-style: italic;
+  font-weight: bold;
+}
+
+span.navbar-item {
+  font-style: italic;
+  font-weight: bold;
+}
+
+a.navbar-item > span.icon {
+  width: 60px;
+}
+
+a.navbar-item > span.icon > img {
+  margin-top: -13px;
+  margin-left: 23px;
+}

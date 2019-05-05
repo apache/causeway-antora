@@ -1,0 +1,29 @@
+site:
+  title: Antora UI Bundle
+  url: http://docserver/ReleaseEngineering/AntoraUiBundle
+  start_page: antora-ui-default:deasp:explanation/about.adoc
+content:
+  sources:
+  #- url: http://vssdmlivetfs:8080/tfs/BOMiLiveTFS/ReleaseEngineering/_git/AntoraUiBundle
+  - url: .
+    start_path: docs
+    branches: HEAD
+
+ui:
+  bundle:
+    url: build/ui-bundle.zip
+    #url: \\vsins-bom-dck04\AntoraUI\build\ui-bundle.zip
+    snapshot: true
+  supplemental_files: supplemental-ui
+
+asciidoc:
+  extensions:
+    - asciidoctor-plantuml
+  attributes:
+    experimental: ""
+    idprefix: ""
+    idseparator: "-"
+    page-toc: "" # adds the 'On This Page' side bar to every page
+
+output:
+  dir: target/site

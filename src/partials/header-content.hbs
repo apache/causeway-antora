@@ -10,38 +10,77 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="#">Home</a>
-        {{> header-content-menubar}}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Products</a>
+          <a class="navbar-link" href="/toc/about.html">Documentation</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">Product A</a>
-            <a class="navbar-item" href="#">Product B</a>
-            <a class="navbar-item" href="#">Product C</a>
+            <a class="navbar-item navbar-heading" href="/ug/about.html"><b>User Guides</b></a>
+            <a class="navbar-item" href="/ug/fun/about.html">Fundamentals</a>
+            <a class="navbar-item" href="/ug/vw/about.html">Wicket Viewer</a>
+            <a class="navbar-item" href="/ug/vro/about.html">Restful Objects Viewer</a>
+            <a class="navbar-item" href="/ug/odn/about.html">DataNucleus Object Store</a>
+            <a class="navbar-item" href="/ug/sec/about.html">Security</a>
+            <a class="navbar-item" href="/ug/tst/about.html">Testing</a>
+            <a class="navbar-item" href="/ug/btb/about.html">Beyond the Basics</a>
+            <hr class="navbar-divider"/>
+            <a class="navbar-item  navbar-heading" href="/rg/about.html">Reference Guides</a>
+            <a class="navbar-item" href="/rg/ant/about.html">Annotations</a>
+            <a class="navbar-item" href="/rg/svc/about.html">Domain Services</a>
+            <a class="navbar-item" href="/rg/cfg/about.html">Core Config Properties</a>
+            <a class="navbar-item" href="/rg/cms/about.html">Classes, Methods &amp; Schema</a>
+            <a class="navbar-item" href="/rg/mvn/about.html">Maven plugin</a>
+            <a class="navbar-item" href="/rg/fis/about.html">Framework Internal Services</a>
+            <hr class="navbar-divider"/>
+            <a class="navbar-item" href="/demoapp/about.html">Demo App</a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Services</a>
+          <a class="navbar-link" href="#">Downloads</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">Service A</a>
-            <a class="navbar-item" href="#">Service B</a>
-            <a class="navbar-item" href="#">Service C</a>
+            <span class="navbar-item">Maven Archetypes</span>
+            <a class="navbar-item" href="/arch/helloworld/about.html">Hello World</a>
+            <a class="navbar-item" href="/arch/simpleapp/about.html">Simple App</a>
+            <hr class="navbar-divider"/>
+            <a class="navbar-item" href="/downloads/about.html">Downloads</a>
+            <a class="navbar-item" href="/downloads/rn/about.html">Release Notes</a>
+            <a class="navbar-item" href="/downloads/mn/about.html">Migration Notes</a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Resources</a>
+          <a class="navbar-link" href="#">Support</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">Resource A</a>
-            <a class="navbar-item" href="#">Resource B</a>
-            <a class="navbar-item" href="#">Resource C</a>
+            <a class="navbar-item" href="/support/dg/about.html">Developers' Guide</a>
+            <a class="navbar-item" href="/support/cgcom/about.html">Committers' Guide</a>
+            <a class="navbar-item" href="/support/ad/about.html">Architecture/Design</a>
+            <hr class="navbar-divider"/>
+            <span class="navbar-item">Mailing Lists</span>
+            <a class="navbar-item" href="/toc/how-tos/how-to-subscribe.html">How to subscribe</a>
+            <a class="navbar-item" href="https://lists.apache.org/list.html?users@isis.apache.org">Archives (ASF Pony Mail)</a>
+            <a class="navbar-item" href="http://isis.markmail.org/search/?q=">Archives (Markmail)</a>
+            <hr class="navbar-divider"/>
+            <span class="navbar-item">Other Resources</span>
+            <a class="navbar-item" href="https://issues.apache.org/jira/browse/ISIS">ASF JIRA</a>
+            <a class="navbar-item" href="http://stackoverflow.com/questions/tagged/isis">Stack Overflow</a>
+            <a class="navbar-item" href="#">Wiki, Fisheye etc.</a>
           </div>
         </div>
-        <div class="navbar-item">
-          <span class="control">
-            <a class="button is-primary" href="#">Download</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">@ASF</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="http://www.apache.org/">Apache Homepage</a>
+            <a class="navbar-item" href="https://www.apache.org/events/current-event">Events</a>
+            <a class="navbar-item" href="https://www.apache.org/licenses/">Licenses</a>
+            <a class="navbar-item" href="https://www.apache.org/security/">Security</a>
+            <a class="navbar-item" href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a>
+            <a class="navbar-item" href="https://www.apache.org/foundation/thanks.html">Thanks</a>
+            <hr class="navbar-divider"/>
+            <a class="navbar-item" href="https://whimsy.apache.org/board/minutes/Isis.html">PMC board minutes</a>
+          </div>
+        </div>
+        <a class="navbar-item" href="https://isis.apache.org">
+          <span class="icon">
+            <img src="/_/img/isis-logo-48x48.png"></img>
           </span>
-        </div>
-        {{> header-content-menubar-2}}
+        </a>
       </div>
     </div>
   </nav>

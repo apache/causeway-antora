@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "asciidoctor.js": "1.5.9",
-    "autoprefixer": "~9.4",
+    "autoprefixer": "^9.4.10",
     "browserify": "~16.2",
     "cssnano": "~4.1",
     "eslint": "~5.11",
@@ -23,7 +23,7 @@
     "eslint-plugin-standard": "~4.0",
     "fs-extra": "~7.0",
     "gifsicle": "4.0.0",
-    "gulp": "~4.0",
+    "gulp": "^4.0.1",
     "gulp-concat": "~2.6",
     "gulp-connect": "~5.7",
     "gulp-eslint": "~5.0",
