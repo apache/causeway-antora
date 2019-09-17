@@ -28,7 +28,7 @@
     position: fixed;
     top: 150px;
     right: 0;
-    font-size: 1em;
+    font-size: 0.9em;
     border-left: dotted 1px #e1e1e1;
     padding-left: 1rem;
     width: 16rem;
@@ -45,7 +45,7 @@
 }
 
 .article-aside h3.toc-title {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #666;
   font-weight: bold;
   display: block;
@@ -73,7 +73,7 @@
   text-decoration: none;
   padding: 5px 0 5px 5px;
   line-height: 1.2;
-  font-size: 1em;
+  font-size: 0.9em;
   position: relative;
   width: 100%;
   font-weight: 400;
