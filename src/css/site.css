@@ -1,11 +1,11 @@
 @import "typeface-roboto.css";
 @import "typeface-roboto-mono.css";
+@import "vars.css";
 @import "base.css";
+@import "body.css";
+@import "nav.css";
 @import "main.css";
 @import "main-toc.css";
-@import "navigation.css";
-@import "navigation-menu.css";
-@import "navigation-explore.css";
 @import "toc.css";
 @import "toolbar.css";
 @import "breadcrumbs.css";
@@ -14,9 +14,11 @@
 @import "header.css";
 @import "footer.css";
 @import "highlight.css";
+@import "print.css";
 @import "fa-icons.css";
 @import "links-external.css";
 @import "links-internal.css";
 @import "table-stretch.css";
 @import "menu-styling.css";
 @import "admonitions.css";
+@import "extensions/article-toc.css";

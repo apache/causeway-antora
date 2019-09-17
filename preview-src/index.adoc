@@ -3,18 +3,24 @@ Author Name
 :idprefix:
 :idseparator: -
 :!example-caption:
+:!table-caption:
 :page-toc:
 
+image:multirepo-ssg.svg[Multirepo SSG,200,float=right]
 Platonem complectitur mediocritatem ea eos.
 Ei nonumy deseruisse ius.
 Mel id omnes verear.
 Vis no velit audiam, sonet <<dependencies,praesent>> eum ne.
 *Prompta eripuit* nec ad.
+Integer diam enim, dignissim eget eros et, ultricies mattis odio.
+Vestibulum consectetur nec urna a luctus.
+Quisque pharetra tristique arcu fringilla dapibus.
+Curabitur ut massa aliquam, cursus enim et, accumsan lectus.
 
 == Cu solet
 
 Nominavi luptatum eos, an vim hinc philosophia intellegebat.
-Lorem `expetenda` pertinacia et nec, wisi illud sonet qui ea.
+Lorem `expetenda` pertinacia et nec, wisi illud [.underline]#sonet# qui ea.
 Eum an doctus <<liber-recusabo,maiestatis efficiantur>>.
 Eu mea inani iriure.
 
@@ -53,11 +59,12 @@ vfs
   .pipe(tap((file) => { // <1>
     file.contents = browserify(file.relative, { basedir: 'src', detectGlobals: false }).bundle()
   }))
-  .pipe(buffer())
+  .pipe(buffer()) // <2>
   .pipe(uglify())
   .pipe(gulp.dest('build'))
 ----
 <1> The tap function is used to wiretap the data in the pipe.
+<2> Wrap streaming files in buffers so they can be processed by uglify.
 
 Cum dicat #putant# ne.
 Est in <<inline,reque>> homero principes, meis deleniti mediocrem ad has.
@@ -79,7 +86,7 @@ Select menu:File[Open Project] to open the project in your IDE.
 Per ea btn:[Cancel] inimicus.
 Ferri kbd:[F11] tacimates constituam sed ex, eu mea munere vituperata kbd:[Ctrl,T] constituam.
 
-.Sidebar
+.Sidebar Title
 ****
 Platonem complectitur mediocritatem ea eos.
 Ei nonumy deseruisse ius.
@@ -122,6 +129,7 @@ agam graeci
 
 At ornatus splendide sed.
 
+.Library dependencies
 [#dependencies%autowidth]
 |===
 |Library |Version
@@ -209,11 +217,11 @@ Deleniti volutpat per ad. Populo suscipit an nec, odio menandri interpretaris du
 
 Fuisset _explicari_ eu cum, mea tempor voluptaria ut, cu tation urbanitas forensibus pri. Duo aeterno liberavisse ne, nec idque consequat scribentur id. Reque mundi mea ea. An qui nisl ubique placerat, eos rebum tacimates contentiones an. At odio audiam vel. Eos no quas appareat similique, eos at inimicus constituto, eum ei audire senserit.
 
-Pro eros offendit oportere an. Quot mentitum eam eu, ex eos *vidit* mollis. Dignissim vituperata interpretaris id eos, et utamur accusam mel. 
+Pro eros offendit oportere an. Quot mentitum eam eu, ex eos *vidit* mollis. Dignissim vituperata interpretaris id eos, et utamur accusam mel.
 
-. Vis eu adhuc solum. 
-. Pri graeci percipitur ea, veritus omnesque et duo, decore sensibus ex nam. 
-. Vim atqui ridens consequuntur an, ea doctus latine delicatissimi vix, ad atqui insolens eam. 
+. Vis eu adhuc solum.
+. Pri graeci percipitur ea, veritus omnesque et duo, decore sensibus ex nam.
+. Vim atqui ridens consequuntur an, ea doctus latine delicatissimi vix, ad atqui insolens eam.
 . Eleifend dissentiunt definitionem ei vis, ut sea mutat consul omittam.
 
 Novum vitae adversarium et per. Vix id meis sanctus. An ubique labitur reprehendunt pri, vel probo fabulas et. Sea nibh clita at. Ei amet iudicabit his, nec nisl agam in. Cetero appareat an has. Ea pro agam feugait dissentiunt.
@@ -222,7 +230,7 @@ Novum vitae adversarium et per. Vix id meis sanctus. An ubique labitur reprehend
 
 Lorèm ipsum dolor sït àmet, ex latîne repudiândâè séa, usu èa débîtîs delïcata sèntentiàe. Eû laudem iisqùe çeterœs dûo, proprïaè vôlûtpat periçùla an per, mélius sèntêntîâë no ëst. Te agâm çonseqûuntur vél, debet opôrtèré perïçûla ex prî. Ut quis propriaè èxplicàri hïs. Falli nemœré tè vix, èù mei postulant théôphrastùs. Vix sumo modûs èt, ex méis summo prœprïàé èam, inîmîcus indoctum ne nec.
 
-Nam ea éxércî refôrmidans. Mei regiôné êripùït ëpiçuréi ad, ad àliâ vélit vèrêar èos, nè dîctà recusabô élâbœrarét has. Eu eam âéqué façétë, ùtrôqûë mœlestiàê ei mea, àn qùando tântas cum. 
+Nam ea éxércî refôrmidans. Mei regiôné êripùït ëpiçuréi ad, ad àliâ vélit vèrêar èos, nè dîctà recusabô élâbœrarét has. Eu eam âéqué façétë, ùtrôqûë mœlestiàê ei mea, àn qùando tântas cum.
 
 * defïnîtiônes
 * vitupèratorîbûs
@@ -284,7 +292,7 @@ Nisl principês èfficiantûr eum êu, ëam tatîon probatus înstrûctior at. V
 [cols="1*<.^5,9*^.^2m"]
 |===
 
-.3+|*Timèàm* 
+.3+|*Timèàm*
 9+d|*Habèo*
 
 3+d|*êpicurî `XXVI`*
@@ -319,9 +327,9 @@ Iuvârèt mâiestatïs cum ut. Dëbet âliquip has àn, nisl altera malôrum ïd
 
 . Ut àlîqùândô concéptam çum.
 .. Cùm ullûm àcçumsan înterèssèt në
-.. Essênt sànctus àncillàé ést ët. 
-. Ipsum sùmmo concêptam eum in. 
-.. Prœ pûrto grâècis pérïçùla ne. 
+.. Essênt sànctus àncillàé ést ët.
+. Ipsum sùmmo concêptam eum in.
+.. Prœ pûrto grâècis pérïçùla ne.
 .. Ea partem âçcommodâré nëc, cu çùm énîm dèléctus vôlutpat.
 . Sed solum refœrmîdans eu.
 
@@ -331,7 +339,7 @@ Id môdo întêgre nâm. Eâm quâs indôctum éx. Mea nè vênïam populo ornâ
 
 Eï vîx dolorès dignissim alîqûando. Ignœta àpêriri argumëntùm nê qui, dicam iraçundîa ùsu no, inâni eloqùéntiàm cu sèd. Ex êos aliquip accusàm, veritus èxpliçàrï vulpùtaté duo eù, èu çùm tempor alîquïp scaevola. Qui ât pœssit modèràtius, an qûàndo librîs màiéstatis pèr. Ad ipsum nostro éûm, te mèl ràtionibus èlaboraret.
 
-Vix promptà rêprimîqùé te. Gràêçïs sâlutandi intellegàm té sit, affèrt sîngulis nô has, sâlè exerci no îus. His îriure alîquam intëllegât et, êu postêa caùsàè intêllègam pri. Nullà scriptà eam ùt, êt vix ërror mêliôré, sea saepè epïcureî ut. Eum ad modus sapêret. Ius viris aliqûip gubêrgren în, ut dolôr àcçùmsân pàtrîoquè sed, dico sanctus réprîmique ëx sed.  
+Vix promptà rêprimîqùé te. Gràêçïs sâlutandi intellegàm té sit, affèrt sîngulis nô has, sâlè exerci no îus. His îriure alîquam intëllegât et, êu postêa caùsàè intêllègam pri. Nullà scriptà eam ùt, êt vix ërror mêliôré, sea saepè epïcureî ut. Eum ad modus sapêret. Ius viris aliqûip gubêrgren în, ut dolôr àcçùmsân pàtrîoquè sed, dico sanctus réprîmique ëx sed.
 
 Mea éà utamur argumentûm. Per at idquë torquàtos. Per ut çetéro accœmmodarè, unum pœsteà sïngulïs âd pér. Vis êt rècusàbo cônclûdâtûrqué. Eûm èx partêm pertînâx, pœpulœ fabulâs àliquândo sït et. His libèr përtinaçià tê, sôleat suavîtàté mêi àt.
 
@@ -350,5 +358,17 @@ Ad pro fùgit populô. Usu erat dîssëntïàs instructior êu, duo habemus qû�
 
 Cum dicat putant ne.
 Est in reque homero principes, meis deleniti mediocrem ad has.
+Ex nam suas nemore dignissim, vel apeirian democritum et.
+
+.Antora is a multi-repo documentation site generator
+image::multirepo-ssg.svg[Multirepo SSG,250]
+
 Altera atomorum his ex, has cu elitr melius propriae.
 Eos suscipit scaevola at.
+
+[quote, 'Famous Person. Cum dicat putant ne.', 'Cum dicat putant ne. https://example.com[Famous Person Website]']
+____
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna. Quisque porta facilisis tortor, vitae bibendum velit fringilla vitae! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna. Quisque porta facilisis tortor, vitae bibendum velit fringilla vitae!
+____
+
+That's all, folks!

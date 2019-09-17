@@ -1,4 +1,4 @@
-<div class="navigation-explore{{#unless page.navigation}} is-active{{/unless}}" data-panel="explore">
+<div class="nav-panel-explore{{#unless page.navigation}} is-active{{/unless}}" data-panel="explore">
   {{#if page.component}}
   <div class="context">
     <span class="title">{{page.component.title}}</span>
@@ -14,7 +14,7 @@
         <li class="version
           {{~#if (and (eq ../this @root.page.component) (eq this @root.page.componentVersion))}} is-current{{/if~}}
           {{~#if (eq this ../latestVersion)}} is-latest{{/if}}">
-          <a href="{{{relativize @root.page.url ./url}}}">{{./displayVersion}}</a>
+          <a href="{{{relativize ./url}}}">{{./displayVersion}}</a>
         </li>
         {{/each}}
       </ul>
