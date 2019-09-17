@@ -3,12 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.apache.isis</groupId>
-    <artifactId>isis-antora-theme</artifactId>
+    <artifactId>isis-antora</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <url>https://github.com/apache/isis-antora</url>
+
     <!--
-    This file exists simply as a convenience to allow IntelliJ IDEA to be used as an editor.
+    This file exists mostly as a convenience to allow IntelliJ IDEA to be used as an editor.
     Open this directory as a Maven module
     -->
 
