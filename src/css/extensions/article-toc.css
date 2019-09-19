@@ -2,18 +2,29 @@
   position: relative;
 }
 
-.doc h1::before,
-.doc h2::before,
-.doc h3::before,
-.doc h4::before,
-.doc h5::before,
-.doc h6::before {
-  display: block;
-  content: " ";
-  height: 130px;
-  margin-top: -130px;
-  visibility: hidden;
-  overflow: hidden;
+/* adapted from https://github.com/tscanlin/tocbot/issues/58 */
+@media screen {
+  .doc h2::before {
+    display: block;
+    content: " ";
+    height: 112px;
+    padding-top: -112px;
+    visibility: hidden;
+    overflow: visible;
+  }
+}
+
+@media screen {
+  .doc h3::before,
+  .doc h4::before {
+    display: block;
+    content: " ";
+    height: 112px;
+    padding-top: -56px;
+    margin-top: -56px;
+    visibility: hidden;
+    overflow: visible;
+  }
 }
 
 .article-aside {
@@ -96,4 +107,15 @@
 
 .is-collapsed {
   display: none;
+}
+
+/* as per https://github.com/tscanlin/tocbot/issues/121 */
+h1:focus,
+h2:focus,
+h3:focus,
+h4:focus,
+h5:focus,
+h6:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
