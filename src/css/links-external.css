@@ -1,5 +1,7 @@
 article.doc a[href^="http:"]::after,
-article.doc a[href^="https:"]::after {
+article.doc a[href^="https:"]::after,
+article.doc a.external::after,
+article.doc .external a::after {
   content: url("../img/external-link_font-awesome.svg");
   background-size: 1em 1em;
   display: inline-block;

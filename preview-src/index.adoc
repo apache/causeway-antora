@@ -353,6 +353,11 @@ Id magna omnîs pârtem nàm, in qûô clitâ eleifend urbânitàs, çum sàlè 
 
 Ad pro fùgit populô. Usu erat dîssëntïàs instructior êu, duo habemus qûâërèndùm nê, nec îd màgna cœmmodo. Et hinc mûndi œffëndît mel, êros atomôrum te vîx, vel duis partiêndœ tê. Prï grâeci dèfînitîonès êt.
 
+== Links
+
+[external]
+* xref:index.adoc[external link]
+
 [discrete]
 == Voluptua singulis
 
