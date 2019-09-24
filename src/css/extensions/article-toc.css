@@ -16,7 +16,9 @@
 
 @media screen {
   .doc h3::before,
-  .doc h4::before {
+  .doc h4::before,
+  .doc h5::before,
+  .doc h6::before {
     display: block;
     content: " ";
     height: 112px;
@@ -24,6 +26,15 @@
     margin-top: -56px;
     visibility: hidden;
     overflow: visible;
+  }
+}
+
+@media screen {
+  .doc h3,
+  .doc h4,
+  .doc h5,
+  .doc h6 {
+    color: darkred;
   }
 }
 
