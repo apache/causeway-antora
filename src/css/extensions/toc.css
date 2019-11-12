@@ -1,0 +1,68 @@
+
+@media screen and (min-width: 1025px) {
+  .article-aside {
+    display: block;
+    position: fixed;
+    top: 150px;
+    right: 0;
+    font-size: 0.9em;
+    border-left: dotted 1px #e1e1e1;
+    padding-left: 1rem;
+    width: 22rem;
+  }
+
+  .article-aside.hidden {
+    display: none;
+  }
+
+  .doc {
+    float: left;
+    width: calc(100% - 22rem);
+  }
+
+}
+
+.tocify ul,
+.tocify li {
+  background: transparent;
+}
+
+.tocify {
+
+  width: 20%;
+  position: fixed;
+
+}
+
+.tocify ul, .tocify li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 30px;
+}
+
+
+li.tocify-item.ui-state-default>a {
+  font-weight: bolder;
+}
+
+
+#article-toc {
+  padding-left: 10px;
+}
+
+.tocify-subheader {
+  padding-left: 10px;
+}
+
+.tocify-subheader .tocify-subheader {
+  padding-left: 20px;
+  display: none;
+}
+
+.tocify-subheader .tocify-subheader .tocify-subheader {
+  padding-left: 30px;
+  display: none;
+}
+
