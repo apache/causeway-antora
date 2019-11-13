@@ -1,0 +1,20 @@
+header .navbar-brand {
+  margin-left: 4rem;
+}
+header #topbar-nav {
+  margin-right: 4rem;
+}
+
+div.nav-container aside.nav .panels {
+  padding-top: 3rem;
+}
+
+div.body {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+footer .content {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}

@@ -20,3 +20,5 @@
 @import "menu-styling.css";
 @import "admonitions.css";
 @import "extensions/toc.css";
+@import "extensions/margins.css";
+@import "extensions/colors.css";
