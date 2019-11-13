@@ -4,6 +4,8 @@ div.body aside.nav,
   color: var(--color-isis-green);
 }
 
-
+div.tocify-extend-page {
+  background-color: var(--color-jet-80);
+}
 
 
