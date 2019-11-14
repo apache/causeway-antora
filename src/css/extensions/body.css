@@ -1,0 +1,14 @@
+
+div.body.-title article.doc h1.page {
+  display: none;
+}
+
+div.body.larger article.doc p {
+  font-size: larger;
+}
+
+.doc table.tableblock.nogrid td,
+.doc table.tableblock.nogrid > :not(thead) th {
+  border-top-width: 0;
+  border-bottom-width: 0;
+}

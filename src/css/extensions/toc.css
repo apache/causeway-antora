@@ -11,7 +11,7 @@
   }
 
   .article-toc {
-    padding-left: 0rem;
+    padding-left: 0;
   }
 
   .article-aside.hidden {
@@ -75,10 +75,10 @@ aside.toc #article-toc {
   padding-left: 20px;
   color: var(--color-isis-blue);
   border: solid var(--color-isis-red);
-  border-width: 0 0 0 .25rem;
-  -o-border-image: linear-gradient(var(--color-isis-blue),var(--color-isis-red)) 0 0 0 100%;
-  border-image: -webkit-gradient(linear,left top,left bottom,from(var(--color-isis-blue))),to(var(--color-isis-red)) 0 0 0 100%;
-  border-image: linear-gradient(var(--color-isis-blue),var(--color-isis-red)) 0 0 0 100%;
+  border-width: 0 0 0 0.25rem;
+  -o-border-image: linear-gradient(var(--color-isis-blue), var(--color-isis-red)) 0 0 0 100%;
+  border-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-isis-blue))), to(var(--color-isis-red)) 0 0 0 100%;
+  border-image: linear-gradient(var(--color-isis-blue), var(--color-isis-red)) 0 0 0 100%;
   margin-bottom: 1.5rem;
 }
 

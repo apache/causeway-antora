@@ -16,10 +16,10 @@
   --color-jet-70: #222;
   --color-jet-80: #191919;
   --color-black: #000;
-  --color-isis-red: #AF3734;
-  --color-isis-orange: #F3882A;
-  --color-isis-green: #87A83F;
-  --color-isis-blue: #3C76BD;
+  --color-isis-red: #af3734;
+  --color-isis-orange: #f3882a;
+  --color-isis-green: #87a83f;
+  --color-isis-blue: #3c76bd;
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
   --body-font-size: 1.0625em; /* 17px */
