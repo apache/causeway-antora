@@ -5,3 +5,7 @@ footer .content .copyright {
 footer .content .revision {
   float: right;
 }
+
+footer {
+  min-height: 100px;
+}

@@ -1,8 +1,12 @@
 div.body aside.nav,
 .nav-menu a {
-  color: var(--color-isis-green);
+  color: var(--color-isis-blue);
+}
+
+div.body aside.nav {
+  color: var(--color-smoke-10);
 }
 
 div.tocify-extend-page {
-  background-color: var(--color-jet-80);
+  background-color: var(--color-smoke-30);
 }

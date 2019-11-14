@@ -7,7 +7,7 @@
     right: 0;
     font-size: 0.9em;
     border-left: dotted 1px #e1e1e1;
-    width: 26rem;
+    width: 20rem;
   }
 
   .article-toc {
@@ -73,15 +73,15 @@ li.tocify-item.ui-state-default > a {
 
 aside.toc #article-toc {
   padding-left: 20px;
-  color: var(--color-isis-blue);
-  border: solid var(--color-isis-red);
+  color: var(--color-isis-green);
+  border: solid var(--color-isis-green);
   border-width: 0 0 0 0.25rem;
-  -o-border-image: linear-gradient(var(--color-isis-blue), var(--color-isis-red)) 0 0 0 100%;
-  border-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-isis-blue))), to(var(--color-isis-red)) 0 0 0 100%;
-  border-image: linear-gradient(var(--color-isis-blue), var(--color-isis-red)) 0 0 0 100%;
+  -o-border-image: linear-gradient(var(--color-isis-green), var(--color-isis-green)) 0 0 0 100%;
+  border-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-isis-green))), to(var(--color-isis-green)) 0 0 0 100%;
+  border-image: linear-gradient(var(--color-isis-green), var(--color-isis-green)) 0 0 0 100%;
   margin-bottom: 1.5rem;
 }
 
 .toc-title {
-  color: var(--color-isis-blue);
+  color: var(--color-isis-green);
 }

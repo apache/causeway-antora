@@ -33,21 +33,21 @@
   --monospace-font-weight-bold: 500;
   /* base */
   --body-background: var(--color-white);
-  --panel-background: var(--color-smoke-30);
+  --panel-background: var(--color-smoke-10);
   --panel-border-color: var(--color-smoke-90);
   /* navbar */
-  --navbar-background: var(--color-jet-80);
-  --navbar-font-color: var(--color-white);
-  --navbar_hover-background: var(--color-black);
-  --navbar-button-background: var(--color-white);
+  --navbar-background: var(--color-smoke-30);
+  --navbar-font-color: var(--color-jet-80);
+  --navbar_hover-background: var(--color-smoke-50);
+  --navbar-button-background: var(--color-smoke-10);
   --navbar-button-border-color: var(--panel-border-color);
   --navbar-button-font-color: var(--body-font-color);
   --navbar-menu-border-color: var(--panel-border-color);
-  --navbar-menu-background: var(--color-white);
+  --navbar-menu-background: var(--color-smoke-30);
   --navbar-menu-font-color: var(--body-font-color);
   --navbar-menu_hover-background: var(--color-smoke-50);
   /* nav */
-  --nav-background: var(--color-smoke-30);
+  --nav-background: var(--color-smoke-10);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
   --nav-heading-font-color: var(--color-jet-30);
@@ -110,9 +110,9 @@
   --table-border-color: var(--panel-border-color);
   /* footer */
   --footer-line-height: var(--doc-line-height);
-  --footer-background: var(--color-jet-80);
-  --footer-font-color: var(--color-white);
-  --footer-link-font-color: var(--color-jet-80);
+  --footer-background: var(--color-smoke-30);
+  --footer-font-color: var(--color-jet-80);
+  --footer-link-font-color: var(--color-isis-blue);
   /* dimensions */
   --navbar-height: calc(63 / var(--rem-base) * 1rem);
   --toolbar-height: calc(45 / var(--rem-base) * 1rem);
