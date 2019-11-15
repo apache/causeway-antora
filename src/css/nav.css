@@ -79,7 +79,7 @@ html.is-clipped--nav {
 
 .nav-panel-menu:not(.is-active)::after {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(128, 128, 128, 0.5);
   display: block;
   position: absolute;
   top: 0;
@@ -175,7 +175,7 @@ html.is-clipped--nav {
   right: 0;
   bottom: 0;
   left: 0;
-  max-height: calc(50% + var(--drawer-height));
+  max-height: calc(75% + var(--drawer-height));
 }
 
 .nav-panel-explore .context {

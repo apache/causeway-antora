@@ -1,5 +1,7 @@
 div.body aside.nav,
-.nav-menu a {
+.nav-menu a,
+.nav-menu span,
+div.body aside.nav .nav-panel-explore {
   color: var(--color-isis-blue);
 }
 
