@@ -1,7 +1,3 @@
-a.page {
-  text-decoration: underline dotted;
-}
-
 a.page:hover {
   text-decoration: underline;
 }
