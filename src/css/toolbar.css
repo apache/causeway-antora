@@ -58,6 +58,19 @@
   padding-right: 0.5rem;
 }
 
+.edit-this-page a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url(../img/edit.svg) no-repeat 50%;
+  background-size: 50%;
+  vertical-align: top;
+  color: transparent;
+}
+
 @media screen and (min-width: 1024px) {
   .edit-this-page {
     display: block;

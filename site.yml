@@ -12,7 +12,6 @@ content:
 ui:
   bundle:
     url: build/ui-bundle.zip
-    #url: \\vsins-bom-dck04\AntoraUI\build\ui-bundle.zip
     snapshot: true
   supplemental_files: supplemental-ui
 

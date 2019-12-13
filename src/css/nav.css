@@ -1,7 +1,7 @@
 .nav-container {
   position: fixed;
   top: var(--navbar-height);
-  left: 0;
+  left: 4rem;
   width: 100%;
   font-size: calc(17 / var(--rem-base) * 1.1rem);
   z-index: var(--z-index-nav);
