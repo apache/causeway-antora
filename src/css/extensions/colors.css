@@ -6,7 +6,7 @@ div.body aside.nav .nav-panel-explore {
 }
 
 div.body aside.nav {
-  color: var(--color-smoke-10);
+  background-color: var(--color-smoke-30);
 }
 
 div.tocify-extend-page {
