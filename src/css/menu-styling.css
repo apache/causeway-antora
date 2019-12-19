@@ -13,10 +13,10 @@ span.navbar-item {
 }
 
 a.navbar-item > span.icon {
-  width: 60px;
+  margin-left: 40px;
+  margin-right: 10px;
 }
 
 a.navbar-item > span.icon > img {
   margin-top: -13px;
-  margin-left: 23px;
 }

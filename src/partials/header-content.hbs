@@ -1,7 +1,12 @@
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">{{site.title}}</a>
+      <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">
+          <span class="icon">
+            <img src="{{siteRootPath}}/_/img/isis-logo-48x48.png"></img>
+          </span>
+        <span>{{site.title}}</span>
+      </a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
@@ -9,7 +14,7 @@
       </button>
     </div>
     <div id="topbar-nav" class="navbar-menu">
-      <div class="navbar-end">
+      <a class="navbar-end">
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="#">Quick Start</a>
           <div class="navbar-dropdown">
@@ -82,7 +87,7 @@
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">@ASF</a>
+          <a class="navbar-link" href="#">ASF</a>
           <div class="navbar-dropdown">
             <a class="navbar-item" href="http://www.apache.org/">Apache Homepage</a>
             <a class="navbar-item" href="https://www.apache.org/events/current-event">Events</a>
@@ -96,7 +101,7 @@
         </div>
         <a class="navbar-item" href="{{siteRootPath}}/toc/about.html">
           <span class="icon">
-            <img src="{{siteRootPath}}/_/img/isis-logo-48x48.png"></img>
+            <img src="{{siteRootPath}}/_/img/home.png"></img>
           </span>
         </a>
       </div>

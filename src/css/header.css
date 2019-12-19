@@ -141,6 +141,21 @@ body {
   display: block;
 }
 
+.navbar-brand .navbar-item .icon img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar-brand .navbar-item .icon {
+  margin-left: 0;
+  margin-right: 1.2rem;
+}
+
+.navbar-item .icon img {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
 .navbar-link {
   padding-right: 2.5em;
 }
