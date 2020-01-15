@@ -62,8 +62,8 @@ _Persistence_
 == Catalogs
 
 *  xref:extensions:ROOT:about.adoc[Extensions Catalog]
-*  xref:incubator:ROOT:about.adoc[Incubator Catalog]
-*  xref:legacy:ROOT:about.adoc[Legacy Catalog]
+*  xref:incubator:ROOT:about.adoc[Incubator]
+*  xref:legacy:ROOT:about.adoc[Legacy]
 
 |
 [discrete]
