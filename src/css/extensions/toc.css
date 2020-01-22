@@ -86,3 +86,7 @@ aside.toc #article-toc {
 .toc-title {
   color: var(--color-isis-green);
 }
+
+aside.toc ul.tocify-subheader {
+  margin-left: 20px;
+}
