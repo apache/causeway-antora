@@ -28,6 +28,10 @@ body {
   font-size: calc(22 / var(--rem-base) * 1rem);
 }
 
+.navbar-brand .navbar-item {
+  font-weight: 700;
+}
+
 .navbar-brand .separator {
   padding: 0 0.375rem;
 }
