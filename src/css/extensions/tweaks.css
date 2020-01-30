@@ -7,4 +7,5 @@
 .doc .imageblock img {
   border: thin solid #3c76bd;
   padding: 10px;
+  margin: 10px;
 }
