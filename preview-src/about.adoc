@@ -78,7 +78,7 @@ _Resources_
 
 
 * *xref:toc:devguide:about.adoc[Developers' Guide]*
-* xref:toc:mavendeps:about.adoc[Maven dependencies]
+* xref:starters:mavendeps:about.adoc[Maven dependencies]
 * link:https://cwiki.apache.org/confluence/display/ISIS/Index[ASF Wiki]
 * link:https://stackoverflow.com/questions/tagged/isis[Stack Overflow]
 * link:https://twitter.com/ApacheIsis[Twitter]

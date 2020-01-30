@@ -2,3 +2,9 @@
   padding-top: 5px;
   vertical-align: top;
 }
+
+.doc .image > img,
+.doc .imageblock img {
+  border: thin solid #3c76bd;
+  padding: 10px;
+}
