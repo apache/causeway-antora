@@ -7,5 +7,30 @@
 .doc .imageblock img {
   border: thin solid #3c76bd;
   padding: 10px;
-  margin: 10px;
+}
+
+.float-left-50,
+.float-left {
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.float-left-30 {
+  width: 30px;
+  float: left;
+  margin-right: 20px;
+}
+
+.float-right-50,
+.float-right {
+  width: 50px;
+  float: right;
+  margin-left: 20px;
+}
+
+.float-right-30 {
+  width: 30px;
+  float: right;
+  margin-left: 20px;
 }

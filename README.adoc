@@ -20,7 +20,7 @@
 
 image:{img-ci-status}[CI Status (GitLab CI), link={url-ci-pipelines}]
 
-This project is an archetype that demonstrates how to produce a UI bundle that can be used by {url-antora}[Antora] to generated a documentation site.
+This project demonstrates how to produce a UI bundle that can be used by {url-antora}[Antora] to generated a documentation site.
 You can see a preview of the default UI at {url-preview}.
 
 While the default UI is ready to be used with Antora, the intent is that you'll fork it and customize it for your own needs.
