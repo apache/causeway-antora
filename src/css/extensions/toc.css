@@ -58,17 +58,18 @@ li.tocify-item.ui-state-default > a {
   display: none;
 }
 
+.-narrow aside.toc,
 .-toc aside.toc {
   display: none;
 }
 
 @media screen and (min-width: 1025px) {
-  .-toc .doc {
+  .-narrow .doc {
     width: 100%;
   }
 }
 
-.-toc .doc {
+.-narrow .doc {
   max-width: 100%;
 }
 
