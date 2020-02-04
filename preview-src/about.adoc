@@ -76,7 +76,8 @@ _Persistence_
 _Resources_
 
 
-* *xref:toc:devguide:about.adoc[Developers' Guide]*
+* *xref:gsguide:ROOT:about.adoc[Getting Started Guide]*
+* *xref:conguide:ROOT:about.adoc[Contributor' Guide]*
 * xref:starters:mavendeps:about.adoc[Maven dependencies]
 * link:https://cwiki.apache.org/confluence/display/ISIS/Index[ASF Wiki]
 * link:https://stackoverflow.com/questions/tagged/isis[Stack Overflow]
@@ -87,8 +88,8 @@ _Resources_
 == Releases
 
 * xref:toc:ROOT:downloads/how-to.adoc[Downloads]
-* xref:toc:relnotes:about.adoc[Release Notes]
-* xref:toc:mignotes:about.adoc[Migration Notes]
+* xref:relnotes:ROOT:about.adoc[Release Notes]
+* xref:mignotes:ROOT:about.adoc[Migration Notes]
 
 _Nightly Builds (not ASF)_
 
@@ -102,9 +103,9 @@ _Nightly Builds (not ASF)_
 [discrete]
 == Internal
 
-*  xref:toc:comguide:about.adoc[Committers' Guide]
-** xref:toc:comguide:about.adoc#cutting-a-release[Cutting a Release]
-** xref:toc:comguide:about.adoc#verifying-releases[Verifying a Release]
+*  xref:comguide:ROOT:about.adoc[Committers' Guide]
+** xref:comguide:ROOT:cutting-a-release.adoc[Cutting a Release]
+** xref:comguide:ROOT:verifying-releases.adoc[Verifying a Release]
 * xref:core:ROOT:about.adoc[Core Framework]
 * xref:more-thanks/more-thanks.adoc[Acknowledgements]
 
@@ -139,7 +140,7 @@ _Academia_
 
 _Example Apps_
 
-* https://github.com/isisaddons/isis-app-todoapp[TodoApp]
+* https://github.com/apache/isis-app-todoapp[TodoApp]
 * https://github.com/isisaddons/isis-app-kitchensink[Kitchensink]
 * https://github.com/isisaddons/isis-app-quickstart[Quickstart]
 
