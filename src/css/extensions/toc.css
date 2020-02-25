@@ -8,12 +8,12 @@
     font-size: 0.9em;
     border-left: dotted 1px #e1e1e1;
     width: 16rem;
-    margin-right: 4em;
+    margin-right: 2rem;
   }
 
   #article-toc {
     padding-left: 0;
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
 
   .article-aside.hidden {
@@ -65,12 +65,12 @@ li.tocify-item.ui-state-default > a {
 
 @media screen and (min-width: 1025px) {
   .-narrow .doc {
-    width: 100%;
+    width: 95%;
   }
 }
 
 .-narrow .doc {
-  max-width: 100%;
+  max-width: 95%;
 }
 
 aside.toc #article-toc {

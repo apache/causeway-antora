@@ -49,6 +49,10 @@
   }
 }
 
+.nav-container .nav {
+  margin-left: 1rem;
+}
+
 .nav .panels {
   display: flex;
   flex-direction: column;
