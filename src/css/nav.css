@@ -103,7 +103,7 @@ html.is-clipped--nav {
   flex-grow: 1;
   min-height: 0;
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  padding: 1rem 0.75rem;
   line-height: var(--nav-line-height);
   position: relative;
 }
@@ -111,7 +111,7 @@ html.is-clipped--nav {
 .nav-menu h3.title {
   color: var(--nav-heading-font-color);
   font-size: inherit;
-  font-weight: var(--body-font-weight-bold);
+  font-weight: var(--body-font-weight-normal);
   margin: 0;
   padding: 0.25em 0 0.125em;
 }
@@ -193,6 +193,50 @@ html.is-clipped--nav {
   cursor: pointer;
   line-height: 1;
   height: var(--drawer-height);
+}
+
+.nav-panel-pagination {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  height: var(--toolbar-height);
+}
+
+.nav-panel-pagination a span {
+  background-repeat: no-repeat;
+  background-position: right 0.5rem top 50%;
+  background-size: auto 1em;
+  padding: 0 1.5rem 0 0;
+  margin-right: 15px;
+}
+
+.nav-panel-pagination a.page-previous span {
+  background-image: url(../img/arrow-left.png);
+}
+
+.nav-panel-pagination a.page-previous.disabled span {
+  background-image: url(../img/arrow-left-disabled.png);
+}
+
+.nav-panel-pagination a.page-next span {
+  background-image: url(../img/arrow-right.png);
+}
+
+.nav-panel-pagination a.page-next.disabled span {
+  background-image: url(../img/arrow-right-disabled.png);
+}
+
+.nav-panel-pagination a.page-parent span {
+  background-image: url(../img/arrow-up.png);
+}
+
+.nav-panel-pagination a.page-parent.disabled span {
+  background-image: url(../img/arrow-up-disabled.png);
+}
+
+.nav-panel-pagination a.disabled {
+  pointer-events: none;
+  cursor: default;
 }
 
 .nav-panel-explore .context .version {

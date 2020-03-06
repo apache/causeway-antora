@@ -1,0 +1,13 @@
+<link rel="home" href="{{or site.url (or siteRootUrl siteRootPath)}}" title="{{site.title}}">
+{{#if page.next}}
+  <link rel="next" href="
+  {{~#if (eq page.next.urlType 'internal')}}{{{relativize @root.page.url page.next.url}}}
+  {{~else}}{{{page.next.url}}}
+  {{~/if}}" title="{{page.next.content}}">
+{{/if}}
+{{#if page.previous}}
+  <link rel="prev" href="
+  {{~#if (eq page.previous.urlType 'internal')}}{{{relativize @root.page.url page.previous.url}}}
+  {{~else}}{{{page.previous.url}}}
+  {{~/if}}" title="{{page.previous.content}}">
+{{/if}}

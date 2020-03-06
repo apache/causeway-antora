@@ -1,0 +1,18 @@
+<div class="nav-panel-pagination">
+  <a class="page-previous{{#if (not page.previous)}} disabled{{/if}}" rel="prev" href="
+    {{~#if (eq page.previous.urlType 'internal')}}{{{relativize @root.page.url page.previous.url}}}
+    {{~else}}{{{page.previous.url}}}
+    {{~/if}}" title="{{page.previous.content}}"><span></span></a>
+  <a class="page-next{{#if (not page.next)}} disabled{{/if}}" rel="next"
+     href="
+    {{~#if (eq page.next.urlType 'internal')}}{{{relativize @root.page.url page.next.url}}}
+    {{~else}}{{{page.next.url}}}
+    {{~/if}}" title="{{page.next.content}}"><span></span></a>
+<!--
+page.parent doesn't seem to be set...
+  <a class="page-parent{{#if (not page.parent)}} disabled{{/if}}" rel="prev" href="
+  {{~#if (eq page.parent.urlType 'internal')}}{{{relativize @root.page.url page.parent.url}}}
+    {{~else}}{{{page.parent.url}}}
+    {{~/if}}" title="{{page.previous.content}}"><span></span></a>
+-->
+</div>

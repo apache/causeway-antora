@@ -29,9 +29,10 @@
   --body-line-height: 1.15;
   --body-font-color: var(--color-jet-70);
   --body-font-family: "Open Sans", "DejaVu Sans", sans-serif;
-  --body-font-weight-bold: 500;
+  --body-font-weight-normal: 500;
+  --body-font-weight-bold: 800;
   --monospace-font-family: "Roboto Mono", monospace;
-  --monospace-font-weight-bold: 500;
+  --monospace-font-weight-bold: 800;
   /* base */
   --body-background: var(--color-white);
   --panel-background: var(--color-smoke-10);
