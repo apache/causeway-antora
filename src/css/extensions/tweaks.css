@@ -1,6 +1,11 @@
-.doc .colist > table tr > td:first-of-type {
+.doc .colist > table > tbody > tr > td:first-of-type {
   padding-top: 5px;
   vertical-align: top;
+}
+
+div.colist table td div.paragraph {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .doc .image > img,
