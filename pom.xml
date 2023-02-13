@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.apache.isis</groupId>
-    <artifactId>isis-antora</artifactId>
+    <groupId>org.apache.causeway</groupId>
+    <artifactId>causeway-antora</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <url>https://github.com/apache/isis-antora</url>
+    <url>https://github.com/apache/causeway-antora</url>
 
     <!--
     This file exists mostly as a convenience to allow IntelliJ IDEA to be used as an editor.

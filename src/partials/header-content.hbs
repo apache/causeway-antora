@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <a class="navbar-item" href="{{or site.url (or siteRootUrl siteRootPath)}}">
           <span class="icon">
-            <img src="{{siteRootPath}}/_/img/isis-logo-48x48.png"></img>
+            <img src="{{siteRootPath}}/_/img/causeway-logo-65x48.png"></img>
           </span>
         <span>{{site.title}}</span>
       </a>
@@ -24,96 +24,95 @@
           <a class="navbar-link" href="#">Quick Start</a>
           <div class="navbar-dropdown">
             <span class="navbar-item navbar-heading">Starter Apps</span>
-            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/starters/helloworld.html">Hello World</a>
-            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/starters/simpleapp.html">Simple App</a>
+            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/starters/helloworld.html">Hello World</a>
+            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/starters/simpleapp.html">Simple App</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Demos &amp; Tutorials</span>
-            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/demo/about.html">Demo App</a>
+            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/demo/about.html">Demo App</a>
             <a class="navbar-item" href="https://danhaywood.gitlab.io/isis-petclinic-tutorial-docs/petclinic/1.16.2/intro.html">Petclinic (tutorial)</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Resources</span>
-            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/resources/cheatsheet.html">Cheatsheet</a>
-            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/resources/icons.html">Icons</a>
+            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/resources/cheatsheet.html">Cheatsheet</a>
+            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/resources/icons.html">Icons</a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="#">Guides</a>
           <div class="navbar-dropdown">
             <span class="navbar-item navbar-heading">Core</span>
-            <a class="navbar-item" href="{{siteRootPath}}/userguide/{{page.attributes.isisrel}}/about.html">User Guide</a>
-            <a class="navbar-item" href="{{siteRootPath}}/refguide/{{page.attributes.isisrel}}/about.html">Reference Guide</a>
-            <a class="navbar-item" href="{{siteRootPath}}/testing/{{page.attributes.isisrel}}/about.html">Testing Guide</a>
-            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.isisrel}}/about.html">Security Guide</a>
+            <a class="navbar-item" href="{{siteRootPath}}/userguide/{{page.attributes.causewayrel}}/about.html">User Guide</a>
+            <a class="navbar-item" href="{{siteRootPath}}/refguide/{{page.attributes.causewayrel}}/about.html">Reference Guide</a>
+            <a class="navbar-item" href="{{siteRootPath}}/testing/{{page.attributes.causewayrel}}/about.html">Testing Guide</a>
+            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.causewayrel}}/about.html">Security Guide</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Development</span>
-            <a class="navbar-item" href="{{siteRootPath}}/setupguide/{{page.attributes.isisrel}}/about.html">Setup Guide</a>
-            <a class="navbar-item" href="{{siteRootPath}}/conguide/{{page.attributes.isisrel}}/about.html">Contributors' Guide</a>
+            <a class="navbar-item" href="{{siteRootPath}}/setupguide/{{page.attributes.causewayrel}}/about.html">Setup Guide</a>
+            <a class="navbar-item" href="{{siteRootPath}}/conguide/{{page.attributes.causewayrel}}/about.html">Contributors' Guide</a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="#">Components</a>
           <div class="navbar-dropdown">
             <span class="navbar-item navbar-heading">Viewers</span>
-            <a class="navbar-item" href="{{siteRootPath}}/vw/{{page.attributes.isisrel}}/about.html">Web UI (Wicket)</a>
-            <a class="navbar-item" href="{{siteRootPath}}/vro/{{page.attributes.isisrel}}/about.html">REST API (Restful Objects)</a>
+            <a class="navbar-item" href="{{siteRootPath}}/vw/{{page.attributes.causewayrel}}/about.html">Web UI (Wicket)</a>
+            <a class="navbar-item" href="{{siteRootPath}}/vro/{{page.attributes.causewayrel}}/about.html">REST API (Restful Objects)</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Persistence</span>
-            <a class="navbar-item" href="{{siteRootPath}}/pjpa/{{page.attributes.isisrel}}/about.html">JPA (EclipseLink)</a>
-            <a class="navbar-item" href="{{siteRootPath}}/pjdo/{{page.attributes.isisrel}}/about.html">JDO (DataNucleus)</a>
+            <a class="navbar-item" href="{{siteRootPath}}/pjpa/{{page.attributes.causewayrel}}/about.html">JPA (EclipseLink)</a>
+            <a class="navbar-item" href="{{siteRootPath}}/pjdo/{{page.attributes.causewayrel}}/about.html">JDO (DataNucleus)</a>
             <span class="navbar-item navbar-heading">Security</span>
-            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.isisrel}}/bypass/about.html">Bypass (Authenticator & Authorizor)</a>
-            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.isisrel}}/shiro/about.html">Shiro (Authenticator & Authorizor)</a>
-            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.isisrel}}/spring/about.html">Spring (Authenticator only)</a>
-            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.isisrel}}/keycloak/about.html">Keycloak (Authenticator only)</a>
+            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.causewayrel}}/bypass/about.html">Bypass (Authenticator & Authorizor)</a>
+            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.causewayrel}}/shiro/about.html">Shiro (Authenticator & Authorizor)</a>
+            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.causewayrel}}/spring/about.html">Spring (Authenticator only)</a>
+            <a class="navbar-item" href="{{siteRootPath}}/security/{{page.attributes.causewayrel}}/keycloak/about.html">Keycloak (Authenticator only)</a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="#">Catalogs</a>
           <div class="navbar-dropdown">
             <span class="navbar-item navbar-heading">For Use in Apps</span>
-            <a class="navbar-item" href="{{siteRootPath}}/valuetypes/{{page.attributes.isisrel}}/about.html">Value Types</a>
+            <a class="navbar-item" href="{{siteRootPath}}/valuetypes/{{page.attributes.causewayrel}}/about.html">Value Types</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Extending the framework itself</span>
-            <a class="navbar-item" href="{{siteRootPath}}/extensions/{{page.attributes.isisrel}}/about.html">Extensions</a>
+            <a class="navbar-item" href="{{siteRootPath}}/extensions/{{page.attributes.causewayrel}}/about.html">Extensions</a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="#">Support</a>
           <div class="navbar-dropdown">
             <span class="navbar-item navbar-heading">Contact</span>
-            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/support/slack-channel.html">Slack</a>
-            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/support/mailing-list.html">Mailing Lists</a>
-            <a class="navbar-item" href="https://issues.apache.org/jira/browse/ISIS">JIRA</a>
-            <a class="navbar-item" href="https://stackoverflow.com/questions/tagged/isis">Stack Overflow</a>
+            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/support/slack-channel.html">Slack</a>
+            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/support/mailing-list.html">Mailing Lists</a>
+            <a class="navbar-item" href="https://issues.apache.org/jira/browse/CAUSEWAY">JIRA</a>
+            <a class="navbar-item" href="https://stackoverflow.com/questions/tagged/causeway">Stack Overflow</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Releases</span>
-            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/downloads/how-to.html">Downloads</a>
-            <a class="navbar-item" href="{{siteRootPath}}/relnotes/{{page.attributes.isisrel}}/about.html">Release Notes</a>
+            <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/downloads/how-to.html">Downloads</a>
+            <a class="navbar-item" href="{{siteRootPath}}/relnotes/{{page.attributes.causewayrel}}/about.html">Release Notes</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Nightly Builds</span>
-            <a class="navbar-item" href="https://github.com/apache/isis">Packages (ASF hosted)</a>
-            <a class="navbar-item" href="https://github.com/apache-isis-committers/isis-nightly">Packages (not ASF hosted)</a>
-            <a class="navbar-item" href="https://apache-isis-committers.github.io/isis-nightly">Website Preview (not ASF hosted)</a>
+            <a class="navbar-item" href="https://github.com/apache/causeway">Packages (ASF hosted)</a>
+            <a class="navbar-item" href="https://github.com/apache-causeway-committers/causeway-nightly">Packages (not ASF hosted)</a>
+            <a class="navbar-item" href="https://apache-causeway-committers.github.io/causeway-nightly">Website Preview (not ASF hosted)</a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="#">Framework</a>
           <div class="navbar-dropdown">
             <span class="navbar-item navbar-heading">Process</span>
-            <a class="navbar-item" href="{{siteRootPath}}/comguide/{{page.attributes.isisrel}}/about.html">Committers' Guide</a>
-            <a class="navbar-item" href="{{siteRootPath}}/tooling/{{page.attributes.isisrel}}/about.html">Tooling</a>
+            <a class="navbar-item" href="{{siteRootPath}}/comguide/{{page.attributes.causewayrel}}/about.html">Committers' Guide</a>
+            <a class="navbar-item" href="{{siteRootPath}}/tooling/{{page.attributes.causewayrel}}/about.html">Tooling</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Automated Analysis</span>
             <a class="navbar-item" href="https://sonarcloud.io/dashboard?id=apache_isis">SonarCloud.io</a>
-            <a class="navbar-item" href="https://fisheye.apache.org/browse/~br=master/isis-git/">ASF Fisheye</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Development</span>
-            <a class="navbar-item" href="{{siteRootPath}}/core/{{page.attributes.isisrel}}/about.html">Internal Design Docs</a>
-            <a class="navbar-item" href="{{siteRootPath}}/regressiontests/{{page.attributes.isisrel}}/about.html">Regression Tests</a>
-            <a class="navbar-item" href="{{siteRootPath}}/incubator/{{page.attributes.isisrel}}/about.html">Incubator</a>
+            <a class="navbar-item" href="{{siteRootPath}}/core/{{page.attributes.causewayrel}}/about.html">Internal Design Docs</a>
+            <a class="navbar-item" href="{{siteRootPath}}/regressiontests/{{page.attributes.causewayrel}}/about.html">Regression Tests</a>
+            <a class="navbar-item" href="{{siteRootPath}}/incubator/{{page.attributes.causewayrel}}/about.html">Incubator</a>
             <hr class="navbar-divider"/>
             <span class="navbar-item navbar-heading">Thanks</span>
-            <a class="navbar-item" href="{{siteRootPath}}/more-thanks/{{page.attributes.isisrel}}/more-thanks.html">Acknowledgements</a>
+            <a class="navbar-item" href="{{siteRootPath}}/more-thanks/{{page.attributes.causewayrel}}/more-thanks.html">Acknowledgements</a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
@@ -126,10 +125,10 @@
             <a class="navbar-item" href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a>
             <a class="navbar-item" href="https://www.apache.org/foundation/thanks.html">Thanks</a>
             <hr class="navbar-divider"/>
-            <a class="navbar-item" href="https://whimsy.apache.org/board/minutes/Isis.html">PMC board minutes</a>
+            <a class="navbar-item" href="https://whimsy.apache.org/board/minutes/Causeway.html">PMC board minutes</a>
           </div>
         </div>
-        <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.isisrel}}/about.html">
+        <a class="navbar-item" href="{{siteRootPath}}/docs/{{page.attributes.causewayrel}}/about.html">
           <span class="icon">
             <img src="{{siteRootPath}}/_/img/home.png"></img>
           </span>
