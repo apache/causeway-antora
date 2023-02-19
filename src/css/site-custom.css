@@ -18,12 +18,12 @@ Any CSS defined their will replace *this* file in the template.
   font-size: large;
   border-radius: 5px;
   padding: 5px;
-  border-color: #5ab1bb; /* causeway cyan */;
+  border-color: #5ab1bb;
 }
 
 #algolia-search-input::placeholder {
   opacity: 0.5;
-  color: #5ab1bb; /* causeway cyan */;
+  color: #5ab1bb;
 }
 
 .navbar-brand .navbar-item:first-child,
@@ -35,4 +35,3 @@ Any CSS defined their will replace *this* file in the template.
 .navbar-brand .navbar-title {
   padding-left: 10px;
 }
-
