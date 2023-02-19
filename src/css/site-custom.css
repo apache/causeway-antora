@@ -13,3 +13,26 @@ ui:
 
 Any CSS defined their will replace *this* file in the template.
 */
+
+#algolia-search-input {
+  font-size: large;
+  border-radius: 5px;
+  padding: 5px;
+  border-color: #5ab1bb; /* causeway cyan */;
+}
+
+#algolia-search-input::placeholder {
+  opacity: 0.5;
+  color: #5ab1bb; /* causeway cyan */;
+}
+
+.navbar-brand .navbar-item:first-child,
+.navbar-brand .navbar-item:first-child a {
+  font-size: calc(22 / var(--rem-base) * 1.1rem);
+  font-family: "Android Insomnia", "Montserrat", sans-serif;
+}
+
+.navbar-brand .navbar-title {
+  padding-left: 10px;
+}
+

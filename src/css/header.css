@@ -26,6 +26,7 @@ body {
 .navbar-brand .navbar-item:first-child a {
   color: var(--navbar-font-color);
   font-size: calc(22 / var(--rem-base) * 1rem);
+  padding-top: 5px;
 }
 
 .navbar-brand .navbar-item {
