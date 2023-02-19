@@ -11,23 +11,6 @@ and referencing in site.yml:
 ui:
   supplemental_files: _docs/supplemental-ui
 
-Any CSS defined their will replace *this* file in the template.
+Any CSS defined there will replace *this* file in the template.
 */
 
-#algolia-search-input {
-  font-size: large;
-  border-radius: 5px;
-  padding: 5px;
-  border-color: #5ab1bb;
-}
-
-#algolia-search-input::placeholder {
-  opacity: 0.5;
-  color: #5ab1bb;
-}
-
-.navbar-brand .navbar-title {
-  padding-left: 10px;
-  font-size: calc(22 / var(--rem-base) * 1.1rem);
-  font-family: "Android Insomnia", "Montserrat", sans-serif;
-}
