@@ -40,11 +40,16 @@ div.colist table td div.paragraph {
   margin-left: 20px;
 }
 
+span.algolia-autocomplete {
+  width: 100%;
+}
+
 #algolia-search-input {
-  font-size: large;
   border-radius: 5px;
   padding: 5px;
   border-color: #5ab1bb;
+  margin-left: 10px;
+  width: 90%;
 }
 
 #algolia-search-input::placeholder {
